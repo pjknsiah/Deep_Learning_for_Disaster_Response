@@ -6,7 +6,7 @@
 
 A Deep Learning Natural Language Processing (NLP) pipeline designed to filter critical information from noise during humanitarian crises. Using **Bidirectional LSTMs** and **Word Embeddings**, this system classifies social media posts as "Real Disasters" or "Metaphorical Noise" with **79% accuracy**.
 
-## 🚀 Project Overview
+## Project Overview
 
 During emergencies (floods, fires, earthquakes), social media is a vital source of real-time situational awareness. However, keyword-based filtering fails because words like "ablaze," "panic," or "avalanche" are often used metaphorically (e.g., *"The sunset was ablaze with color"*).
 
@@ -15,7 +15,7 @@ This project solves the **Semantics vs. Keyword** problem by using Deep Learning
 * **Tech Stack:** Python, TensorFlow (Keras), Scikit-Learn, Pandas.
 * **Architecture:** Embedding Layer $\to$ Bidirectional LSTM $\to$ Dense Output.
 
-## 📊 Key Results
+##  Key Results
 
 * **Dataset:** Kaggle NLP with Disaster Tweets (10,000+ samples).
 * **Model Architecture:** Bidirectional LSTM (Long Short-Term Memory).
@@ -27,7 +27,7 @@ This project solves the **Semantics vs. Keyword** problem by using Deep Learning
 * **Sequence Handling:** Utilized `pad_sequences` to standardize tweet lengths to 100 tokens, ensuring uniform tensor input.
 * **Regularization:** Applied `Dropout(0.5)` to prevent overfitting on the relatively small dataset.
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Python 3.8+
@@ -44,7 +44,7 @@ cd Deep_Learning_for_Disaster_Response
 pip install pandas numpy tensorflow scikit-learn
 ```
 
-## 🏃 Usage
+## Usage
 
 Run the training pipeline:
 ```bash
@@ -57,13 +57,7 @@ The script will:
 3. Train the Bidirectional LSTM model.
 4. Output the model accuracy and classification report.
 
-## 📁 Project Structure
-
-* `disaster_nlp.py`: The main Python script.
-* `train.csv`: The training dataset.
-* `README.md`: Project documentation.
-
-## 🧠 Model Architecture
+## Model Architecture
 
 The model is built using **TensorFlow/Keras** and consists of the following layers:
 
@@ -85,7 +79,13 @@ The model is built using **TensorFlow/Keras** and consists of the following laye
 5.  **Output Layer (1 unit, Sigmoid)**:
     *   *Purpose:* Outputs a probability score between 0 and 1 (0 = Not Disaster, 1 = Real Disaster).
 
-## 🔮 Future Improvements
+## Project Structure
+
+* `disaster_nlp.py`: The main Python script.
+* `train.csv`: The training dataset.
+* `README.md`: Project documentation.
+
+## Future Improvements
 
 POTENTIAL AREAS FOR DEVELOPMENT
 
