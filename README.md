@@ -8,7 +8,7 @@ A Deep Learning Natural Language Processing (NLP) pipeline designed to filter cr
 
 ## Project Overview
 
-During emergencies (floods, fires, earthquakes), social media is a vital source of real-time situational awareness. However, keyword-based filtering fails because words like "ablaze," "panic," or "avalanche" are often used metaphorically (e.g., *"The sunset was ablaze with color"*).
+During emergencies (floods, fires, earthquakes), social media is a vital source of real-time situational awareness. However, keyword-based filtering fails because words like "ablaze," "panic," or "avalanche" are often used metaphorically (e.g., *"The sunset was ablaze with color"*). 
 
 This project solves the **Semantics vs. Keyword** problem by using Deep Learning to understand context.
 * **Goal:** Automatically flag tweets that require immediate humanitarian attention.
