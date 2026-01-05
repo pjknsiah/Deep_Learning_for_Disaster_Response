@@ -24,7 +24,7 @@ This project solves the **Semantics vs. Keyword** problem by using Deep Learning
 
 ### Engineering Decisions
 * **Embeddings:** Implemented a learned embedding layer (16-dim) to capture semantic relationships between words.
-* **Sequence Handling:** Utilized `pad_sequences` to standardize tweet lengths to 100 tokens, ensuring uniform tensor input.
+* **Sequence Handling:** Utilized `pad_sequences` to standardize tweet lengths to 100 tokens, ensuring uniform tensor input. 
 * **Regularization:** Applied `Dropout(0.5)` to prevent overfitting on the relatively small dataset.
 
 ## Installation & Setup
