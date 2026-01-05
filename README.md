@@ -20,7 +20,7 @@ This project solves the **Semantics vs. Keyword** problem by using Deep Learning
 * **Dataset:** Kaggle NLP with Disaster Tweets (10,000+ samples).
 * **Model Architecture:** Bidirectional LSTM (Long Short-Term Memory).
 * **Accuracy:** **79.20%** on the validation set.
-* **Why LSTM?** Unlike standard Bag-of-Words models, LSTMs preserve the *sequence* of words, allowing the model to understand that *"The movie was a disaster"* is negative sentiment, not an emergency event.
+* **Why LSTM?** Unlike standard Bag-of-Words models, LSTMs preserve the *sequence* of words, allowing the model to understand that *"The movie was a disaster"* is negative sentiment, not an emergency event. 
 
 ### Engineering Decisions
 * **Embeddings:** Implemented a learned embedding layer (16-dim) to capture semantic relationships between words.
